@@ -1,0 +1,70 @@
+header {
+    background-color: var(--charcoal);
+}
+
+header .container {
+    width: 90%;
+    flex-direction: column;
+    margin: 2% 0 1% 0;
+}
+
+header .upper-container,
+       .lower-container {
+    width: 100%;
+}
+
+header .upper-container {
+    padding-bottom: 3%;;
+}
+
+header .lower-container {
+    padding: 2% 6% 0 5%;
+    border-top: var(--charcoal-gray) solid 2px;
+}
+
+header .b-head  {
+    width: 295px;
+    height: 73px;
+    justify-content: center;
+    font-size: 1.375rem;
+}
+
+header .b-head:hover {
+        background-color: var(--pale-gray);
+        border-color: var(--pale-gray);
+        color: #000;
+        cursor: pointer;
+}
+
+header .soc-icons {
+    user-select: none;
+}
+
+header .soc-icons img{
+    padding: 5px;
+}
+
+header .soc-icons img:hover {
+    cursor: pointer;
+}
+
+header .site-navigation a{
+    color: var(--pale-gray);
+    margin: 5px;
+    padding: 0 5px 0 5px;
+}
+
+header .site-navigation a:hover {
+    cursor: pointer;
+    color: var(--sand);
+}
+
+header .site-navigation a:active {
+        border-bottom: var(--light-gold) solid 2px;
+        color: var(--light-gold);
+}
+
+header .site-navigation .active {    
+    border-bottom: var(--light-gold) solid 2px;
+    color: var(--light-gold) !important;
+}

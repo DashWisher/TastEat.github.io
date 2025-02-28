@@ -1,0 +1,46 @@
+:root {
+    --sand: #e1b168;
+    --light-gold: #ffd786;
+    --charcoal: #292e36;
+    --charcoal-gray: #494e55;
+    --pale-gray: #e4e2df;
+}
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+a {
+    all: unset;
+}
+
+.hollow-button {
+    background-color: transparent;
+    border: var(--sand) solid 2px;
+    color: var(--pale-gray);
+}
+
+.filled-button {
+    background-color: var(--sand);
+    border: var(--sand) solid 2px;
+    color: var(--charcoal);
+}
+
+.container-fluid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

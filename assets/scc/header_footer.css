@@ -20,6 +20,7 @@ header .upper-container {
 header .lower-container {
     padding: 2% 6% 0 5%;
     border-top: var(--charcoal-gray) solid 2px;
+    margin-bottom: 3%;
 }
 
 header .b-head  {
@@ -27,13 +28,6 @@ header .b-head  {
     height: 73px;
     justify-content: center;
     font-size: 1.375rem;
-}
-
-header .b-head:hover {
-        background-color: var(--pale-gray);
-        border-color: var(--pale-gray);
-        color: #000;
-        cursor: pointer;
 }
 
 header .soc-icons {
@@ -68,3 +62,4 @@ header .site-navigation .active {
     border-bottom: var(--light-gold) solid 2px;
     color: var(--light-gold) !important;
 }
+

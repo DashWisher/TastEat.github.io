@@ -4,6 +4,7 @@
     --charcoal: #292e36;
     --charcoal-gray: #494e55;
     --pale-gray: #e4e2df;
+    --light-pink: #fff8f5;
 }
 
 * {
@@ -30,6 +31,14 @@ a {
     background-color: var(--sand);
     border: var(--sand) solid 2px;
     color: var(--charcoal);
+}
+
+.filled-button:hover,
+.hollow-button:hover {
+    background-color: var(--pale-gray);
+    border-color: var(--pale-gray);
+    color: #000;
+    cursor: pointer;
 }
 
 .container-fluid {

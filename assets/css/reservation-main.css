@@ -1,0 +1,80 @@
+main {
+    background-image: url("../images/reservation-background.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100vh;
+}   
+
+main .container {
+    width: 920px;
+    height: 700px;
+    background-color: rgb(41, 46, 54, 0.9);
+}
+
+main .innerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    width: 70%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+main h2 {
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px 0 5px 0;
+    margin-bottom: 20px;
+    border-top: solid var(--sand) 2px;
+    border-bottom: solid var(--sand) 2px;    
+    color: #fff;
+    font-size: 0.925em;
+    margin: 0 auto;
+}
+
+main p {
+    font-family: "Cormorant Infant", sans-serif;
+    font-size: 2.5em;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+main form {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+main form input {
+    padding: 20px 30px;
+    margin: 15px auto;
+    background-color: transparent;
+    border: #858585 1px solid;
+    color: white;
+    font-size: 22px;
+}
+
+main form #name, main form input[name="email"] {
+    width: 38%;
+    flex-shrink: 0;
+}
+
+main form input[type="text"]{
+    width: 21%;
+}
+
+main form button {
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 20px 50px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+main form button:hover {
+    background-color: var(--sand);
+}

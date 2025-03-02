@@ -3,6 +3,7 @@
     --light-gold: #ffd786;
     --charcoal: #292e36;
     --charcoal-gray: #494e55;
+    --davy-gray: #626467;
     --pale-gray: #e4e2df;
     --light-pink: #fff8f5;
 }
@@ -19,6 +20,7 @@
 
 a {
     all: unset;
+    cursor: pointer;
 }
 
 .hollow-button {

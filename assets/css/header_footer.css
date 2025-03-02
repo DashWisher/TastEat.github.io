@@ -120,7 +120,7 @@ footer .middle-container h2 {
     font-weight: 300;
     padding: 10px 0 5px 0;
     margin-bottom: 20px;
-    border-top: solid var(--light-gold) 2px;
+    border-top: solid var(--sand) 2px;
     border-bottom: solid var(--sand) 2px;    
 }
 
@@ -148,8 +148,10 @@ footer .middle-container .middle-content p {
 }
 
 footer .middle-container .middle-content .subscribe {
+    position: relative;
     height: 68px;
-    margin-top: 5%;
+    margin-top: 5%;    
+    right: -3.5%;
 }
 
 footer .middle-container .middle-content input { 

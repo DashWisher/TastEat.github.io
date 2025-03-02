@@ -10,6 +10,11 @@
     cursor: pointer;
 }
 
+.logo {
+    cursor: pointer;
+    user-select: none;
+}
+
 /*--------------------HEADER------------------------*/
 
 header {
@@ -106,7 +111,7 @@ footer .upper-container .soc-icons {
 footer .middle-container {
     width: 100%;
     justify-content: space-between;
-    margin-bottom: 2%;
+    margin: 1% 0 2% 0;
 }
 
 footer .middle-container h2 {

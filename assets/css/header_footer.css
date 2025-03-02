@@ -22,7 +22,7 @@ header {
 }
 
 header .container {
-    width: 90%;
+    width: 80%;
     flex-direction: column;
     margin: 2% 0 1% 0;
 }
@@ -37,7 +37,7 @@ header .upper-container {
 }
 
 header .lower-container {
-    padding: 2% 6% 0 5%;
+    padding: 2% 20% 0 5%;
     border-top: var(--charcoal-gray) solid 3px;
     margin-bottom: 3%;
 }
@@ -87,7 +87,7 @@ footer  h2, p, li {
 }
 
 footer .container {
-    width: 90%;
+    width: 80%;
     flex-direction: column;
     margin: 6% 0 1% 0;
 }
@@ -175,6 +175,13 @@ footer .middle-container .middle-content .b-subscribe {
     background-color: #fff;
     color: #000;
     border: solid #fff 2px;
+    
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+footer .middle-container .middle-content .b-subscribe:hover {
+    background-color: var(--sand);
+    border-color: var(--sand);
 }
 
 footer .middle-container .right-content h2 {
@@ -191,7 +198,7 @@ footer .middle-container .right-content span {
 }
 
 footer .lower-container {
-    padding: 2% 6% 0.5% 5%;
+    padding: 2% 20% 0.5% 5%;
     border-top: var(--charcoal-gray) solid 3px;
 }
 
@@ -203,6 +210,7 @@ footer .lower-container .nav-items {
 
 footer .lower-container .nav-items a {
     margin: 8px;
+    white-space: nowrap;
 }
 
 

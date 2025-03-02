@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/header_footer.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/reservation-main.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
@@ -41,8 +42,28 @@
         </div>
     </header>
 
-    <main>
+    <main class = "container-fluid">
+        <div class="container d-flex">
+            <div class = "innerContainer">
+                <h2>Reservation</h2>
 
+                <p>Book Your Table</p>
+            
+                <form action="#" method="post">
+                    <input type="text" id="name" name="name" value="Name" required>
+        
+                    <input type="email" id="email" name="email" value="Email" required>
+        
+                    <input type="text" id="person" name="person" value="Persons" required>
+        
+                    <input type="text" id="timing" name="timing" value="Timing" required>
+        
+                    <input type="text" id="date" name="date" value="Date" required>
+
+                    <button type="submit">Book A Table</button>
+                </form>
+            </div>
+        </div>   
     </main>
 
     <footer class="container-fluid">

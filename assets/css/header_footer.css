@@ -37,7 +37,7 @@ header .upper-container {
 }
 
 header .lower-container {
-    padding: 2% 20% 0 5%;
+    padding: 2% 12.5% 0 12.5%;
     border-top: var(--charcoal-gray) solid 3px;
     margin-bottom: 3%;
 }
@@ -198,7 +198,7 @@ footer .middle-container .right-content span {
 }
 
 footer .lower-container {
-    padding: 2% 20% 0.5% 5%;
+    padding: 2% 12.5% 0.5% 12.5%;
     border-top: var(--charcoal-gray) solid 3px;
 }
 

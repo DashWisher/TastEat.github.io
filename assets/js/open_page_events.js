@@ -1,7 +1,7 @@
 function openReservationPage() {
-    window.location.href = "/reservation.html";
+    window.location.href = "https://dashwisher.github.io/TastEat.github.io/reservation.html";
 }
 
 function openMainPage() {
-    window.location.href = "/main.html";
+    window.location.href = "https://dashwisher.github.io/TastEat.github.io/main.html";
 }

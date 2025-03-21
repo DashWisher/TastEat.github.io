@@ -9,7 +9,7 @@ It consists of two pages:
 
 ## File system:
 ```
-TastEat
+TastEat 
 ├── css/
 │   ├── header_footer.css
 │   ├── main.css

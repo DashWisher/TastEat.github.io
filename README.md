@@ -8,20 +8,20 @@ It consists of two pages:
 
 
 ## File system:
-
-TastEat <br>
-├── css/<br>
-│   ├── header_footer.css<br>
-│   ├── main.css<br>
-│   ├── reservation-main.css<br>
-│   └── style.css<br>
-├── images/<br>
-├── js/<br>
-│   └── open_page_events.js<br>
-├── main.html<br>
-├── reservation.html<br>
-└── README.md<br>
-
+```
+TastEat
+├── css/
+│   ├── header_footer.css
+│   ├── main.css
+│   ├── reservation-main.css
+│   └── style.css
+├── images/
+├── js/
+│   └── open_page_events.js
+├── main.html
+├── reservation.html
+└── README.md
+```
 ## Screenshots
 
 ![Home page](./assets/images/screenshots/Screenshot1.jpg)

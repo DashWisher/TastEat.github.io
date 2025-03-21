@@ -8,7 +8,7 @@ It consists of two pages:
 
 
 ## File system:
-
+```
 TastEat <br>
 ├── css/<br>
 │   ├── header_footer.css<br>
@@ -21,7 +21,7 @@ TastEat <br>
 ├── main.html<br>
 ├── reservation.html<br>
 └── README.md<br>
-
+```
 ## Screenshots
 
 ![Home page](./assets/images/screenshots/Screenshot1.jpg)
